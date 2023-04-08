@@ -1,0 +1,52 @@
+---
+title: "Steps to Create Repo"
+format: html
+---
+
+
+
+## Steps to create repository
+
+1. git clone https://github.com/brainworkup/brainworkup.github.io
+1. cd brainworkup.github.io
+1. echo "Hello World" > index.html
+1. git add --all
+1. git commit -m "Initial commit"
+1. git push -u origin main
+1. https://brainworkup.github.io
+
+## add more to html
+
+echo "My name is Joey" > index.html
+
+## Put all code in the appendix
+The key: the chunk option ref.label to reference other code chunks.
+
+More info: https://yihui.org/en/2018/09/code-appendix/
+
+You can move your code freely in an Rmd document using ref.label, without cut-and-paste.
+
+9. Cache time-consuming code chunks
+Use the chunk option cache = TRUE if a code chunk is time-consuming and the code doesn't change often.
+
+11. Child documents
+You can split your long documents into shorter ones, and include the shorter documents as child documents, e.g.,
+
+```{r, child='analysis.Rmd', eval=FALSE}
+```
+```{r, child=c('one.Rmd', 'another.Rmd'), eval=FALSE}
+```
+
+Example: 15-conditional.Rmd
+Choose a child document to include based on the P-value* of a regression coefficient.
+
+13. Generate a plot and display it elsewhere
+The key is fig.show = "hide", and the function knitr::fig_chunk().
+
+16. Embed files in the HTML output
+Sometimes you may want your clients or readers to be able to download certain files that you used in the Rmd docuemnt (e.g., a CSV data file).
+
+Use the function xfun::embed_file().
+
+This only works if the output file format is HTML (e.g., html_document,
+ioslides_presentation, etc.).

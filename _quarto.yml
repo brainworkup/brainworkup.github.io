@@ -10,8 +10,17 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5ebd5c7 (Quarto repo now)
 format:
   html:
     theme: cosmo
     css: styles.css
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 5ebd5c7 (Quarto repo now)

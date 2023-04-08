@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "content/posts/post-with-code/index.html",
+    "href": "content/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "content/posts/welcome/index.html",
+    "href": "content/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "content/projects/old.gwm.flow.git.page.html",
+    "href": "content/projects/old.gwm.flow.git.page.html",
+    "title": "brainworkup.github.io",
+    "section": "",
+    "text": "Overview Grant starts and ends on 2020-2022\nTODO March 2021 Contact potential collaborators\nLONI/Thompson/Toga Todd Lencz/ZHH Max Lam/Broad Institute Other Setup USC computing cluster account\nReactivate account Setup data analysis pipeline Upload datasets April 2021 Ordered task list\n\nunordered task list\nunordered task list\n\nOrdered task list next\n\nunordered task list\nunordered task list May 2021\n\n\nOrdered task list\n\nunordered task list unordered task list Ordered task list next\nunordered task list unordered task list June 2021 Ordered task list\nunordered task list unordered task list Ordered task list next\nunordered task list unordered task list"
+  },
+  {
+    "objectID": "content/projects/repo.html",
+    "href": "content/projects/repo.html",
+    "title": "Steps to Create Repo",
+    "section": "",
+    "text": "git clone https://github.com/brainworkup/brainworkup.github.io\ncd brainworkup.github.io\necho “Hello World” &gt; index.html\ngit add –all\ngit commit -m “Initial commit”\ngit push -u origin main\nhttps://brainworkup.github.io"
+  },
+  {
+    "objectID": "content/projects/repo.html#steps-to-create-repository",
+    "href": "content/projects/repo.html#steps-to-create-repository",
+    "title": "Steps to Create Repo",
+    "section": "",
+    "text": "git clone https://github.com/brainworkup/brainworkup.github.io\ncd brainworkup.github.io\necho “Hello World” &gt; index.html\ngit add –all\ngit commit -m “Initial commit”\ngit push -u origin main\nhttps://brainworkup.github.io"
+  },
+  {
+    "objectID": "content/projects/repo.html#add-more-to-html",
+    "href": "content/projects/repo.html#add-more-to-html",
+    "title": "Steps to Create Repo",
+    "section": "add more to html",
+    "text": "add more to html\necho “My name is Joey” &gt; index.html"
+  },
+  {
+    "objectID": "content/projects/repo.html#put-all-code-in-the-appendix",
+    "href": "content/projects/repo.html#put-all-code-in-the-appendix",
+    "title": "Steps to Create Repo",
+    "section": "Put all code in the appendix",
+    "text": "Put all code in the appendix\nThe key: the chunk option ref.label to reference other code chunks.\nMore info: https://yihui.org/en/2018/09/code-appendix/\nYou can move your code freely in an Rmd document using ref.label, without cut-and-paste.\n\nCache time-consuming code chunks Use the chunk option cache = TRUE if a code chunk is time-consuming and the code doesn’t change often.\nChild documents You can split your long documents into shorter ones, and include the shorter documents as child documents, e.g.,\n\nExample: 15-conditional.Rmd Choose a child document to include based on the P-value* of a regression coefficient.\n\nGenerate a plot and display it elsewhere The key is fig.show = “hide”, and the function knitr::fig_chunk().\nEmbed files in the HTML output Sometimes you may want your clients or readers to be able to download certain files that you used in the Rmd docuemnt (e.g., a CSV data file).\n\nUse the function xfun::embed_file().\nThis only works if the output file format is HTML (e.g., html_document, ioslides_presentation, etc.)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "brainworkup.github.io",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 7, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "About me",
+    "text": "About me"
+  }
+]

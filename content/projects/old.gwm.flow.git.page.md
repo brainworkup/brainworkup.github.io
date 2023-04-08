@@ -2,8 +2,8 @@
 GWM: GWAS of Working Memory Research Project Workflow 2021-2022
 Title: RDoC …
 Grant: MH..
-Start Date: 2020-June
-End Date: 2022-June
+StartDate: 2020-June
+EndDate: 2022-June
 ---
 
 Overview Grant starts and ends on 2020-2022

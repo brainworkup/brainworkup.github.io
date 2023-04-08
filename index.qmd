@@ -1,11 +1,7 @@
 ---
 title: "brainworkup.github.io"
 listing:
-<<<<<<< HEAD
   contents: content/posts
-=======
-  contents: posts
->>>>>>> 5ebd5c7 (Quarto repo now)
   sort: "date desc"
   type: default
   categories: true
@@ -14,8 +10,3 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5ebd5c7 (Quarto repo now)

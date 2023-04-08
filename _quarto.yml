@@ -10,7 +10,7 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
-      - content/posts/
+
 format:
   html:
     theme: cosmo

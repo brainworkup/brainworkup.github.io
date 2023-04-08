@@ -1,3 +1,10 @@
+---
+title: "Steps to Create Repo"
+format: html
+---
+
+
+
 ## Steps to create repository
 
 1. git clone https://github.com/brainworkup/brainworkup.github.io
@@ -25,9 +32,9 @@ Use the chunk option cache = TRUE if a code chunk is time-consuming and the code
 11. Child documents
 You can split your long documents into shorter ones, and include the shorter documents as child documents, e.g.,
 
-```{r, child='analysis.Rmd'}
+```{r, child='analysis.Rmd', eval=FALSE}
 ```
-```{r, child=c('one.Rmd', 'another.Rmd')}
+```{r, child=c('one.Rmd', 'another.Rmd'), eval=FALSE}
 ```
 
 Example: 15-conditional.Rmd
@@ -41,4 +48,5 @@ Sometimes you may want your clients or readers to be able to download certain fi
 
 Use the function xfun::embed_file().
 
-This only works if the output file format is HTML (e.g., html_document, ioslides_presentation, etc.).
+This only works if the output file format is HTML (e.g., html_document,
+ioslides_presentation, etc.).

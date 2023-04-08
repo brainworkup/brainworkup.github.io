@@ -9,5 +9,10 @@
     "tab.activeBorder": "#fcffe8",
     "sideBar.border": "#fcffe8"
   },
-  "peacock.color": "#f4feb6"
+  "peacock.color": "#f4feb6",
+  "files.exclude": {
+    ".history": true,
+    ".vscode": true,
+    ".nojekyll": true
+  }
 }

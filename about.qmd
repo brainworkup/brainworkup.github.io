@@ -17,8 +17,5 @@ about:
 ---
 
 About this blog
-<<<<<<< HEAD
 
 ## About me
-=======
->>>>>>> 5ebd5c7 (Quarto repo now)
